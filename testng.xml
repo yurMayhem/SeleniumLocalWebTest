@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumTestSuite" verbose="1">
+    <test name="LocalWebLoginTests">
+        <classes>
+            <class name="LocalLoginTest" />
+        </classes>
+    </test>
+</suite>
